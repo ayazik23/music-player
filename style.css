@@ -1,0 +1,83 @@
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.music-player {
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.player-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.track-art {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.track-name, .track-artist {
+    margin-bottom: 10px;
+}
+
+.player-controls button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.player-controls button:hover {
+    background-color: #555;
+}
+
+.seek_slider, .volume_slider {
+    width: 80%;
+    margin: 15px 0;
+}
+
+.current-time, .total-duration {
+    margin: 0 5px;
+    color: #777;
+}
+
+.volume-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.volume-icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.volume_slider {
+    width: 70%;
+}
+
+
+
+
+
